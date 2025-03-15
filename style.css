@@ -1,22 +1,23 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #002D14; /* Dark Green */
-    color: white;
+    background-color: #f8f8f8; /* Light grey background for contrast */
+    color: black;
     margin: 0;
     padding: 0;
 }
 
 /* Header and Navigation */
 header {
-    background-color: #001F0E; /* Slightly Darker Green */
+    background-color: #007E3A; /* Green from KASS logo */
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
+    color: white; /* White text for contrast */
 }
 
 nav {
@@ -24,10 +25,11 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: white; /* White text */
     text-decoration: none;
     font-size: 20px;
     margin: 0 15px;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -36,42 +38,47 @@ nav a:hover {
 
 /* Logo */
 img {
-    max-width: 200px; /* Increased Logo Size */
+    max-width: 220px; /* Bigger Logo */
     height: auto;
 }
 
-/* Section Styling */
-section {
-    padding: 30px;
+/* Courses Page Styling */
+.course-container {
+    background: white;
+    border: 4px solid #007E3A; /* Green border matching logo */
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 /* Course Table */
-.courses-table {
-    width: 80%;
-    margin: 20px auto;
+.course-table {
+    width: 100%;
     border-collapse: collapse;
-    background: white;
-    color: black;
     font-size: 18px;
 }
 
-.courses-table th, .courses-table td {
-    border: 2px solid #004D29; /* Darker Green Border */
-    padding: 15px;
+.course-table th, .course-table td {
+    border: 2px solid #007E3A; /* Green border */
+    padding: 12px;
     text-align: left;
 }
 
-.courses-table th {
-    background-color: #004D29; /* Dark Green */
+.course-table th {
+    background-color: #007E3A; /* Green header */
     color: white;
+    font-size: 20px;
 }
 
 /* Footer */
 footer {
-    background-color: #001F0E;
+    background-color: #007E3A;
+    color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 30px;
     font-size: 18px;
 }
+
